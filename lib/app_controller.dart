@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+class AppController extends ChangeNotifier{
+  static AppController instance = AppController();
+  bool isDarkTheme = false;
+  bool isPressed = false;
+  void changeTheme() {
+    isDarkTheme = !isDarkTheme;
+    notifyListeners();
+  }
+  void pressChange(){
+    
+    isPressed = !isPressed;
+    notifyListeners();
+  }
+}
