@@ -1,6 +1,6 @@
-# teste1
+# Aplicativo da Esteira Automática
 
-A new Flutter project.
+Projeto do PET Autonet
 
 ## Getting Started
 
